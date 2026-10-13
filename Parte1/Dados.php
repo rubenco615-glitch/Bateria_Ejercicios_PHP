@@ -28,6 +28,7 @@
     </form>
 
     <?php
+    // isset comprueba si la variable existe y no es null
     if (isset($_GET["lanzar"])) {
         $dado = rand(1, 6);
 
