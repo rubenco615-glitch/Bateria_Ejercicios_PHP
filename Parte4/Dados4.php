@@ -76,10 +76,10 @@
         "las crypto"
     ];
 
-    // Comprobamos si se ha pulsado algún botón
+    // Comprueba si se ha pulsado algún botón
     if (isset($_POST["generar"]) || isset($_POST["aleatorio"])) {
 
-        // Si pulsamos el botón aleatorio
+        // Si se pulsa el botón aleatorio
         if (isset($_POST["aleatorio"])) {
 
             // Elegimos una opción aleatoria de cada array
@@ -89,17 +89,17 @@
 
         } else {
 
-            // Guardamos las opciones seleccionadas
+            // Guarda las opciones seleccionadas
             $primera = $_POST["primera"];
             $segunda = $_POST["segunda"];
             $tercera = $_POST["tercera"];
 
         }
 
-        // Juntamos las tres partes
+        // Junta las tres partes
         $frase = $primera . " " . $segunda . " " . $tercera;
 
-        // Mostramos la frase generada
+        // Muestra la frase generada
         echo "<h2>Frase cuñada:</h2>";
         echo "<p>" . htmlspecialchars($frase) . ".</p>";
     }
