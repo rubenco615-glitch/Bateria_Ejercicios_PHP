@@ -3,21 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Lanzamiento de dados 2</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        table { border-collapse: collapse; margin-top: 1em; }
-        th, td { border: 1px solid #ccc; padding: 6px 14px; }
-        th { background: #eee; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
